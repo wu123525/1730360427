@@ -1,76 +1,20 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的小游戏合集</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #f0f2f5;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        .game-card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            padding: 24px;
-            margin: 16px;
-            width: 100%;
-            max-width: 360px;
-            text-align: center;
-        }
-        .game-card h2 {
-            color: #222;
-            margin-bottom: 16px;
-        }
-        .game-card p {
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .game-card a {
-            display: inline-block;
-            background-color: #2ea44f;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.2s;
-        }
-        .game-card a:hover {
-            background-color: #2c974b;
-        }
-    </style>
-</head>
-<body>
-    <h1>欢迎来到我的小游戏合集 🎮</h1>
+<div class="buttons">
+  <a class="btn" href="game1.html" aria-label="打开 Gate 1"> 
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+    Gate 1
+  </a>
 
-    <div class="game-card">
-        <h2>人机对战猜数字游戏 1</h2>
-        <p>经典的猜数字玩法，看看你能几次猜对？</p>
-        <a href="index.html">开始游戏 1</a>
-    </div>
+  <a class="btn secondary" href="game2.html" aria-label="打开 Gate 2">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <path d="M12 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+    Gate 2
+  </a>
+</div>
 
-    <div class="game-card">
-        <h2>人机对战猜数字游戏 2</h2>
-        <p>升级版玩法，更多挑战等你来！</p>
-        <a href="game2.html">开始游戏 2</a>
-    </div>
-</body>
-</html>
+<div class="note">提示：若要在新标签打开，右键按钮选择“在新标签页中打开”。</div>
+<footer>设计：简洁明快 · 小型演示页面</footer>
